@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+
+.login {
+  display: grid;
+  place-items: center;
+  background: linear-gradient(180deg, rgb(15, 1, 15), rgb(39, 3, 39));
+  height: 100vh;
+  color: white;
+}
+
+.login-logo {
+  font-size: 5em;
+  margin-top: 5%;
+}
+
+.login-head {
+  font-family: "Zen Dots", cursive;
+  font-size: 5em;
+  margin-top: -20%;
+}
+
+.login-button {
+  text-decoration: none;
+  background-color: whitesmoke;
+  border-radius: 1em;
+  padding: 1em;
+  margin-top: -20%;
+  width: 13%;
+}
+
+.spot-logo {
+  font-size: 1.3em;
+}
+
+.button-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Zen Dots", cursive;
+  font-size: 1em;
+}
