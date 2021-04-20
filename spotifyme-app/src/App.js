@@ -26,7 +26,7 @@ function App() {
     }
   }, []);
 
-  return <div className="App">{token ? <h1>HELLO</h1> : <Login />}</div>;
+  return <div className="App">{token ? <Player/> : <Login />}</div>;
 }
 
 export default App;
