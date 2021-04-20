@@ -22,10 +22,12 @@
 .login-button {
   text-decoration: none;
   background-color: whitesmoke;
+  color: rgb(39, 3, 39);
   border-radius: 2em;
   padding: 1em;
   margin-top: -20%;
   min-width: 13%;
+  text-decoration: none;
 }
 
 .spot-logo {
