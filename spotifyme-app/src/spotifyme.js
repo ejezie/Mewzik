@@ -4,7 +4,6 @@ const redirectUri = "http://localhost:3000/";
 
 const clientId = "6bea638450f54befb2b5ff467a5ba989";
 
-
 const scopes = [
   "user-read-currently-playing",
   "user-read-recently-played",
@@ -14,8 +13,8 @@ const scopes = [
   "playlist-modify-public",
 ];
 
-const getTokenfromUrl = () => {
-  window.location.hash
+export const getTokenFromUrl = () => {
+  return window.location.hash
     .substring(1)
     .split("&")
     .reduce((initial, item) => {
