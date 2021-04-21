@@ -1,12 +1,17 @@
 import React from "react";
+import Sidebar from "./Sidebar";
+import Body from "./Body";
+import Footer from "./Footer";
+import "./Player.css";
 
-function Player({spotify}) {
+function Player({ spotify }) {
   return (
-    <div>
-      {/* {body} */}
-      {/* {sidebar} */}
-      {/* {footer} */}
-      <h1>MEWZIK</h1>
+    <div className="player">
+      <div className="play-side-wrapper">
+        <Sidebar />
+        <Body />
+      </div>
+      <Footer />
     </div>
   );
 }
