@@ -1,3 +1,14 @@
-.sidebar{
-    border: solid 0.1em rgb(57, 57, 59);
+.sidebar {
+  height: 100vh;
+  flex: 0.2;
+  /* background: linear-gradient(To right, rgb(7, 7, 7), rgb(34, 11, 34)); */
+  /* background-color: #020202; */
+  background-image: linear-gradient(
+      To left,
+      rgb(17, 17, 17),
+      rgba(15, 15, 15, 0.98)
+    ),
+    url("./images/mus.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }

@@ -1,3 +1,8 @@
-.body{
-    border: solid 0.1em rgb(255, 8, 0);
+.body {
+  height: 100vh;
+  flex: 0.8;
+  background-image: linear-gradient(To right, rgb(48, 28, 53), rgb(48, 28, 53,0.8)),
+    url("./images/music.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }

@@ -3,7 +3,14 @@
 .login {
   display: grid;
   place-items: center;
-  background: linear-gradient(180deg, rgb(15, 1, 15), rgb(39, 3, 39));
+  background-image: linear-gradient(
+      To right,
+      rgb(48, 28, 53),
+      rgb(48, 28, 53, 0.8)
+    ),
+    url("./images/musi.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
   color: white;
 }

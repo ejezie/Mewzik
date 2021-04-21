@@ -1,3 +1,7 @@
+.player {
+  color: beige;
+}
+
 .play-side-wrapper {
   display: flex;
   align-items: center;
