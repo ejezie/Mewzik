@@ -1,0 +1,12 @@
+.side-bar-option {
+  height: 5%;
+  margin-top: 7%;
+}
+
+.side-bar-text {
+  cursor: pointer;
+}
+
+.side-bar-text:hover {
+  color: rgb(83, 83, 83);
+}
