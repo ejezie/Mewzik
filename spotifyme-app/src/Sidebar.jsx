@@ -26,16 +26,16 @@ function Sidebar() {
       <p className="playlist">PLAYLISTS</p>
       <hr />
       <div className="playlist-text">
-        <i class="fal fa-list-music music-list"></i>Cool
+      <i class="fas fa-dot-circle music-dot"></i>Cool
       </div>
       <div className="playlist-text">
-        <i class="fal fa-list-music music-list"></i>Rap
+      <i class="fas fa-dot-circle music-dot"></i>Rap
       </div>
       <div className="playlist-text">
-        <i class="fal fa-list-music music-list"></i>Dance
+      <i class="fas fa-dot-circle music-dot"></i>Dance
       </div>
       <div className="playlist-text">
-        <i class="fal fa-list-music music-list"></i>Love
+      <i class="fas fa-dot-circle music-dot"></i>Love
       </div>
       {playlists?.items?.map((playlist) => (
         <div>{playlist.name}</div>

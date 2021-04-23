@@ -44,8 +44,9 @@ hr {
   cursor: pointer;
 }
 
-.music-list {
+.music-dot {
   margin-right: 4%;
+  font-size: 0.6em;
 }
 
 .side-opt {

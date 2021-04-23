@@ -8,6 +8,7 @@ function Footer() {
       <div className="left-footer">
         <img src={albumImage} alt="album-image" className="album-image" />
         <p>The Weeknd</p>
+        <i class="fas fa-heart love-icon"></i>
       </div>
       <div className="center-footer">
         <i class="fas fa-repeat play-con-icon"></i>
@@ -21,7 +22,12 @@ function Footer() {
       <div className="right-footer">
         <i class="fas fa-list-ul music-list"></i>
         <i class="fas fa-volume-up volume-up"></i>
-        <input type="range" min="1" max="100" value="9" className="slider"></input>
+        <input
+          type="range"
+          min="1"
+          max="100"
+          value="9"
+          className="slider"></input>
       </div>
     </div>
   );
