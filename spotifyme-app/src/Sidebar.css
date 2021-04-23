@@ -17,4 +17,43 @@
 .logo {
   height: 3em;
   object-fit: contain;
+  margin-bottom: 7%;
+}
+
+.playlist {
+  font-size: large;
+}
+hr {
+  margin-bottom: 20%;
+}
+
+.side-opt-cont {
+  display: flex;
+  align-items: center;
+  margin-bottom: 9%;
+  cursor: pointer;
+}
+
+.side-icon {
+  font-size: 0.8em;
+  padding: 2%;
+}
+
+.playlist-text {
+  margin-bottom: 9%;
+  cursor: pointer;
+}
+
+.music-list {
+  margin-right: 4%;
+}
+
+.side-opt {
+  font-size: nor;
+}
+.side-opt-cont:hover {
+  color: rgb(83, 83, 83);
+}
+.playlist-text:hover {
+  color: rgb(83, 83, 83);
 }
