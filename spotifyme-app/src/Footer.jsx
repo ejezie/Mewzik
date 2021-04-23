@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="footer">
       <div className="left-footer">
-        <img src={albumImage} alt="album-image" className="album-image" />
+        <img src={albumImage} alt="album" className="album-image" />
         <p>The Weeknd</p>
         <i class="fas fa-heart love-icon"></i>
       </div>

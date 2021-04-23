@@ -71,6 +71,7 @@
 .volume-up,
 .slider {
   margin-right: 6%;
+  cursor: pointer;
 }
 
 .love-icon {
