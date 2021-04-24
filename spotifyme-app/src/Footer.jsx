@@ -1,13 +1,15 @@
 import React from "react";
 import "./Footer.css";
 import albumImage from "./images/theweeknd.jpg";
+import { useStateProvider } from "./StateProvider";
 
 function Footer() {
+  const [{recent}] = useStateProvider()
   return (
     <div className="footer">
       <div className="left-footer">
-        <img src={albumImage} alt="album" className="album-image" />
-        <p>The Weeknd</p>
+        <img src={recent?.images[0].url} alt="album" className="album-image" />
+        <p>{recent?.name}</p>
         <i class="fas fa-heart love-icon"></i>
       </div>
       <div className="center-footer">

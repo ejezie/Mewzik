@@ -11,3 +11,28 @@
   background-repeat: no-repeat;
   padding: 1.5%;
 }
+.body-show {
+  background-color: rgb(245, 245, 245, 0.6);
+  box-shadow: -25px 10px 50px rgb(15, 15, 15);
+  width: 40vw;
+  height: 40vh;
+  margin-top: 2%;
+  border-radius: 10px;
+}
+.body-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2%;
+}
+.body-info > img{
+  object-fit: contain;
+  height: 36vh;
+  width: 20vw;
+  border-radius: 6px;
+  opacity: 0.9;
+}
+.info-text{
+  display: flex;
+  flex-direction: column;
+}

@@ -43,7 +43,7 @@ p {
 }
 
 .header-right > img{
-    height: 2.5em;
+    height: 6vh;
     object-fit: contain;
     border-radius: 50%;
 }

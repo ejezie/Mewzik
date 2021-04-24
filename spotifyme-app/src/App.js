@@ -36,6 +36,12 @@ function App() {
           playlists: playlists,
         });
       });
+      spotify.getPlaylist("2JQp7CIXLPdPv5pTv7m882").then(response=>{
+        dispatch({
+          type: "SET_RECENT",
+          recent : response
+        })
+      })
     }
   }, []);
   console.log(token);
