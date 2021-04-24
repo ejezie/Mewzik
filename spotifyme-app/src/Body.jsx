@@ -2,6 +2,7 @@ import React from "react";
 import "./Body.css";
 import Header from "./Header";
 import { useStateProvider } from "./StateProvider";
+import SongRow from "./SongRow";
 
 function Body({ spotify }) {
   const [{ recent }] = useStateProvider();
@@ -19,6 +20,12 @@ function Body({ spotify }) {
             <h3>{recent?.name}</h3>
           </div>
         </div>
+      </div>
+      <div className="body-songs">
+        {recent?.tracks.items.map(item => (
+          <SongRow track = {item.track}/>
+        ))}
+        <SongRow recent={recent} />
       </div>
     </div>
   );
