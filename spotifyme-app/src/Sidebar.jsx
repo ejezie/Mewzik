@@ -9,7 +9,10 @@ function Sidebar() {
 
   return (
     <div className="sidebar">
-      <img src={logo} alt="logo" className="logo" />
+      <div className="logo-cancel">
+        <img src={logo} alt="logo" className="logo" />
+        <i class="far fa-window-close cancel"></i>
+      </div>
       <div className="side-opt-cont">
         <i class="fas fa-house-user side-icon"></i>
         Home
@@ -26,16 +29,16 @@ function Sidebar() {
       <p className="playlist">PLAYLISTS</p>
       <hr />
       <div className="playlist-text">
-      <i class="fas fa-dot-circle music-dot"></i>Cool
+        <i class="fas fa-dot-circle music-dot"></i>Cool
       </div>
       <div className="playlist-text">
-      <i class="fas fa-dot-circle music-dot"></i>Rap
+        <i class="fas fa-dot-circle music-dot"></i>Rap
       </div>
       <div className="playlist-text">
-      <i class="fas fa-dot-circle music-dot"></i>Dance
+        <i class="fas fa-dot-circle music-dot"></i>Dance
       </div>
       <div className="playlist-text">
-      <i class="fas fa-dot-circle music-dot"></i>Love
+        <i class="fas fa-dot-circle music-dot"></i>Love
       </div>
       {playlists?.items?.map((playlist) => (
         <div>{playlist.name}</div>

@@ -1,0 +1,13 @@
+.navbar {
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  color: whitesmoke;
+  height: 4vh;
+}
+
+.navbar > i {
+  font-size: 1.5em;
+  margin: 50% 0% 0% 50%;
+  display: none;
+}

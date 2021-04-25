@@ -1,6 +1,6 @@
 .body {
   height: 100vh;
-  flex: 0.8;
+  /* flex: 0.8; */
   background-image: linear-gradient(
       To right,
       rgb(48, 28, 53),
@@ -10,6 +10,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   padding: 1.5%;
+  width: 100%;
 }
 .body-show {
   background-color: rgb(245, 245, 245, 0.6);
@@ -23,7 +24,7 @@
 .body-info {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 2%;
 }
 .body-info > img {
@@ -46,4 +47,94 @@
 
 .body-songs::-webkit-scrollbar {
   display: none;
+}
+
+@media (max-width: 1200px) {
+  .body-show {
+    width: 45vw;
+    height: 45vh;
+  }
+}
+@media (max-width: 1050px) {
+  .info-text {
+    font-size: 0.8em;
+  }
+  .body-info > img {
+    height: 40vh;
+    width: 21vw;
+  }
+}
+@media (max-width: 900px) {
+ 
+  .body-show {
+    width: 47vw;
+    height: 40vh;
+  }
+}
+@media (max-width: 765px) {
+ 
+  .body-show {
+    width: 54vw;
+    height: 38vh;
+  }
+  .body-info > img {
+    height: 38vh;
+    width: 25vw;
+  }
+}
+@media (max-width: 665px) {
+ 
+  .body-show {
+    width: 56vw;
+    height: 38vh;
+  }
+  .body-info > img {
+    height: 38vh;
+    width: 25vw;
+  }
+  .info-text{
+    font-size: 0.6em;
+  }
+}
+@media (max-width: 500px) {
+ 
+  .body-show {
+    width: 90vw;
+    height: 38vh;
+  }
+  .body-info > img {
+    height: 38vh;
+    width: 28vw;
+  }
+  .info-text{
+    font-size: 0.85em;
+  }
+}
+@media (max-width: 360px) {
+ 
+  .body-show {
+    width: 90vw;
+    height: 38vh;
+  }
+  .body-info > img {
+    height: 38vh;
+    width: 30vw;
+  }
+  .info-text{
+    font-size: 0.7em;
+  }
+}
+@media (max-width: 300px) {
+ 
+  .body-show {
+    width: 90vw;
+    height: 30vh;
+  }
+  .body-info > img {
+    height: 30vh;
+    width: 30vw;
+  }
+  .info-text{
+    font-size: 0.55em;
+  }
 }

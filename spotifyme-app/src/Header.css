@@ -42,8 +42,19 @@ p {
   margin-left: 4%;
 }
 
-.header-right > img{
-    height: 6vh;
+.header-right > img {
+  height: 6vh;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+@media (max-width: 655px) {
+  .header-left > i {
+    font-size: 0.7em;
+  }
+  .header-right > img {
+    height: 5.5vh;
     object-fit: contain;
     border-radius: 50%;
+  }
 }

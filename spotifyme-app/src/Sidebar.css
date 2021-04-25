@@ -1,8 +1,6 @@
 .sidebar {
   height: 100vh;
-  flex: 0.2;
-  /* background: linear-gradient(To right, rgb(7, 7, 7), rgb(34, 11, 34)); */
-  /* background-color: #020202; */
+  width: 20vw;
   background-image: linear-gradient(
       To left,
       rgb(17, 17, 17),
@@ -12,8 +10,20 @@
   background-size: cover;
   background-repeat: no-repeat;
   padding: 1.5%;
+  z-index: 10;
 }
-
+.logo-cancel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cancel {
+  margin-top: -20%;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: 200;
+  display: none;
+}
 .logo {
   height: 3em;
   object-fit: contain;
@@ -57,4 +67,28 @@ hr {
 }
 .playlist-text:hover {
   color: rgb(83, 83, 83);
+}
+
+@media (max-width: 1400px) {
+  .sidebar {
+    width: 30vw;
+  }
+}
+@media (max-width: 850px) {
+  .sidebar {
+    width: 35vw;
+  }
+}
+@media (max-width: 650px) {
+  .sidebar {
+    width: 45vw;
+  }
+}
+@media (max-width: 500px) {
+  .sidebar {
+    width: 45vw;
+    position: fixed;
+    left: 0;
+    display: none;
+  }
 }

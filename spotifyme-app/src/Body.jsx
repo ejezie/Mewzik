@@ -25,7 +25,6 @@ function Body({ spotify }) {
         {recent?.tracks.items.map(item => (
           <SongRow track = {item.track}/>
         ))}
-        <SongRow recent={recent} />
       </div>
     </div>
   );
