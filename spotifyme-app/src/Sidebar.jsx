@@ -3,13 +3,19 @@ import "./Sidebar.css";
 import logo from "./images/mewzik.PNG";
 import { useStateProvider } from "./StateProvider";
 
-function Sidebar() {
+function Sidebar({show, hideSide}) {
   const [{ playlists }] = useStateProvider();
   console.log(playlists);
 
+// const showSidebar = () => setSidebar(!sideBar)
+const sideBarClass = ["sidebar"];
+if (show){
+  sideBarClass.push("show")
+}
+
   return (
-    <div className="sidebar">
-      <div className="logo-cancel">
+    <div className={sideBarClass.join(" ")}>
+      <div className="logo-cancel" onClick={hideSide}>
         <img src={logo} alt="logo" className="logo" />
         <i class="far fa-window-close cancel"></i>
       </div>

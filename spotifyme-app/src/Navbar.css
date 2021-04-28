@@ -8,6 +8,13 @@
 
 .navbar > i {
   font-size: 1.5em;
-  margin: 50% 0% 0% 50%;
+  margin: 50% 0% 0% 1220%;
+  opacity: 0.6;
   display: none;
+}
+
+@media (max-width:500px) {
+    .navbar > i{
+        display: block;
+    }
 }

@@ -89,6 +89,13 @@ hr {
     width: 45vw;
     position: fixed;
     left: 0;
-    display: none;
+    transform: translateX(-100%);
+    transition: all 0.5s ease-out;
+  }
+  .show{
+    transform: translateX(0);
+  }
+  .cancel{
+    display: flex;
   }
 }

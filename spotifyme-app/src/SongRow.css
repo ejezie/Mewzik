@@ -35,3 +35,50 @@
 .con-name > p {
   font-size: 0.7em;
 }
+
+@media (max-width:825px) {
+  .con-name {
+    min-width: 10em;
+  }
+  .song-row-con > i {
+    color: gold;
+    margin-left: 45%;
+    cursor: pointer;
+  }
+}
+@media (max-width:755px) {
+  .song-row-con > i {
+    color: gold;
+    margin-left: 35%;
+    cursor: pointer;
+  }
+}
+
+@media (max-width:645px) {
+  .song-row-con > i {
+    color: gold;
+    margin-left: 18%;
+    cursor: pointer;
+  }
+}
+@media (max-width:500px) {
+  .song-row-con > i {
+    color: gold;
+    margin-left: 25%;
+    cursor: pointer;
+  }
+}
+@media (max-width:360px) {
+  .song-row-con > i {
+    color: gold;
+    margin-left: 10%;
+    cursor: pointer;
+  }
+}
+@media (max-width:290px) {
+  .song-row-con > i {
+    color: gold;
+    margin-left: 0%;
+    cursor: pointer;
+  }
+}
