@@ -1,6 +1,6 @@
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 
-const redirectUri = "http://localhost:3000/";
+const redirectUri = "https://mewzik.vercel.app/";
 
 const clientId = "6bea638450f54befb2b5ff467a5ba989";
 
